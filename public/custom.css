@@ -1,0 +1,142 @@
+.navbar-header.admin_header, .navbar-header.logo_header {
+    background: #fff !important;
+    box-shadow: none !important;
+}
+.navbar-header.admin_header .navbar-brand img {
+    width: 120px;
+    height: 37px;
+    position: absolute;
+    top: 5px;
+}
+.navbar-header.logo_header .navbar-brand img {
+    width: 120px;
+    height: 31px;
+    position: absolute;
+    top: 7px;
+}
+.form-group.margin_top {
+    margin-top: 25px !important;
+}
+.white_sp{
+    white-space: nowrap;
+}
+
+.pac-container { z-index: 100000; }
+
+.zoomWindow{
+    z-index: 100000 !important;
+}
+
+.daterangepicker{
+    z-index: 100000 !important;
+}
+
+.xtra-lg{
+    font-size: 17px;
+}
+
+.editAmount{
+    width: 80px;
+}
+
+.p-0{
+    padding: 0px !important;
+}
+
+.pb-0{
+    padding-bottom: 0px !important;
+}
+
+.pt-0{
+    padding-top: 0px !important;
+}
+
+.pr-0{
+    padding-right: 0px !important;
+}
+
+.pl-0{
+    padding-left: 0px !important;
+}
+
+
+.m-0{
+    margin: 0px !important;
+}
+
+.mb-0{
+    margin-bottom: 0px !important;
+}
+
+.mt-0{
+    margin-top: 0px !important;
+}
+
+.mr-0{
+    margin-right: 0px !important;
+}
+
+.ml-0{
+    margin-left: 0px !important;
+}
+
+.wide_in390{
+    width: 390px;
+}
+
+.wide_in290{
+    width: 290px;
+}
+
+.wide_in100{
+    width: 100px;
+}
+
+.wide_in50{
+    width: 50px;
+}
+
+.width_100p{
+    width: 100%;
+}
+
+@media print {
+    @page {
+        size: 8.20in 11.25in;
+        /*margin: 27mm 16mm 27mm 16mm;*/
+    }
+
+    .print_hight{
+        min-height: 10.50in;
+    }
+
+    .footer_position{
+        position: absolute;
+        height: 50px;
+        left: 15px;
+        right: 15px;
+        bottom: 5px;
+        padding-top: 25px;
+    }
+}
+
+.footer.text-muted.pull_right {
+    position: absolute;
+    right: 2%;
+}
+.page-container.bg_style {
+    background-image: url("userassets/images/bg-testi .jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.page-container.bg_style::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(31, 33, 37, 0.92);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.8;
+}
